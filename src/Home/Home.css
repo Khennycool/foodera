@@ -1,0 +1,50 @@
+#Home{
+    height: 100vh;
+    margin: 1rem 5rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#Home h1{
+    font-size: 3rem;
+    color: #43121d;
+
+}
+#Home p{
+    font-size: 1rem;
+    color: #333;
+
+}
+.btn-white{
+    color: black;
+    background: #fff;
+    margin-left: 1rem;
+    border: none;
+    transition: 0.5 ease;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.139);
+    
+
+}
+.btn-white:hover{
+    border: 3px solid var(--primary-color);
+}
+#Home img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+button{
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+span{
+   margin: 0.5rem;
+}
+.icons{
+    color: #fff;
+
+}
+.icons:hover{
+    color: var(--primary-color);
+}

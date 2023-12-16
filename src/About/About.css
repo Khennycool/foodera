@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+#About{
+    height: 100vh;
+    margin: 1rem 5rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.about-text h3{
+    font-size: 2rem;
+    color: #43121d;
+    margin-top: 8rem;
+    margin-left: -4rem;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+.about-text p{
+    font-size: 1rem;
+    color: #43121d;
+    margin-left: -4rem;
+    font-family: 'Roboto', sans-serif;
+}
+#About img{
+    height: 70%;
+    width: 90%;
+    object-fit: contain;
+    /* border: 1px solid black; */
+    margin-top: 3rem;
+}
+.-btn{
+   align-items: center;
+   justify-content: center;
+
+}

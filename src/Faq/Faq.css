@@ -1,0 +1,28 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.faq{
+    height: 70vh;
+    width: 100%;
+  text-align: center;
+
+}
+faq h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.faq-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10rem;
+    gap: 1rem;
+    text-align: left;
+    margin: 2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+.faq-inner h4 span{
+    color: var(--primary-color);
+
+}

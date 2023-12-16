@@ -1,0 +1,19 @@
+.counter{
+    height: 25vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: var(--primary-color);
+    grid-gap: 0.5rem;
+}
+.counter-text{
+
+    color: #fff;
+    margin-left: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+.counter-text h1{
+    font-size: 3rem solid;
+    margin: 3rem 0rem -1rem 0rem;
+}

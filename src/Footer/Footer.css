@@ -1,0 +1,38 @@
+.footer{
+    background: var(--primary-color);
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer1 ul{
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* text-decoration: none; */
+    color: white;
+}
+.footer1{
+    display: flex;
+}
+.footer1 ul li {
+    list-style: none;
+    margin-left: 1rem;
+    margin-bottom: -1rem;
+}
+.footer2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer2 ul{
+    display: flex;
+    color: white;
+
+}
+.footer2 ul li{
+    list-style: none;
+    margin-left: .5rem;
+}

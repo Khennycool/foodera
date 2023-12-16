@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.explore{
+    height: 80%;
+    width: 100%;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.explore-text h1 {
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.explore-text p{
+    margin: 0rem 15rem 3rem 15rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.0;
+    
+   
+
+
+    
+}
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    text-align:start;
+
+}.image img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.image img p{
+    font-family: 'Roboto', sans-serif;
+}
+.image img h3{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.-btn{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: var(--primary-color);
+    margin: 0;
+}

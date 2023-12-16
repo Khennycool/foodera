@@ -1,0 +1,25 @@
+.parallax{
+    background: url('../asset/2222.jpg') no-repeat center fixed;
+    height: 80vh;
+    background-size: cover;
+}
+.parallax-inner{
+    display: flex;
+    height: 10rem;
+    background: rgba(0, 0, 0, 0.126);
+ 
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+.parallax2{
+    background: white;
+    height: 75vh;
+    text-align: center;
+    margin-top: -1.5rem;
+}
+.parallax2 h1{
+   padding-top: 4rem;
+
+}
